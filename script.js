@@ -369,8 +369,35 @@ function toggleView() {
         showToday();
     } else {
         btn.innerHTML = '<i class="fas fa-th"></i> Vista de Semana';
-        generateSchedule();
+        // Restaurar completamente la vista de semana
+        restoreWeekView();
     }
+}
+
+// Función para restaurar completamente la vista de semana
+function restoreWeekView() {
+    // Limpiar el contenido actual
+    const tbody = document.getElementById('schedule-body');
+    tbody.innerHTML = '';
+    
+    // Restaurar todos los encabezados de días
+    const headers = document.querySelectorAll('.day-header');
+    const dayNames = ['Lunes', 'Martes', 'Miércoles', 'Jueves', 'Viernes', 'Sábado'];
+    headers.forEach((header, index) => {
+        if (index < dayNames.length) {
+            header.textContent = dayNames[index];
+            header.style.display = '';
+        }
+    });
+    
+    // Mostrar todas las celdas de días
+    const allCells = document.querySelectorAll('.schedule-cell');
+    allCells.forEach(cell => {
+        cell.style.display = '';
+    });
+    
+    // Regenerar el horario completo
+    generateSchedule();
 }
 
 // Mostrar solo el día de hoy
