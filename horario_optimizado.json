@@ -1,0 +1,137 @@
+[
+  {
+    "name": "Pensamiento Filosofico y Humanidades",
+    "day": "miercoles",
+    "startTime": "10:00",
+    "endTime": "12:00",
+    "teacher": "Fatima Judith Ramirez Chagoya",
+    "room": "Aula 6",
+    "color": "#FF6B6B"
+  },
+  {
+    "name": "Pensamiento Filosofico y Humanidades",
+    "day": "jueves",
+    "startTime": "10:00",
+    "endTime": "12:00",
+    "teacher": "Fatima Judith Ramirez Chagoya",
+    "room": "Info 4",
+    "color": "#FF6B6B"
+  },
+  {
+    "name": "CNEYT 1: Invitacion a la ciencia, naturaleza de la materia",
+    "day": "jueves",
+    "startTime": "07:00",
+    "endTime": "09:00",
+    "teacher": "Carlos Medina Cruz",
+    "room": "Aula por asignar",
+    "color": "#4ECDC4"
+  },
+  {
+    "name": "Ingles",
+    "day": "miercoles",
+    "startTime": "12:00",
+    "endTime": "14:00",
+    "teacher": "Quien sabe",
+    "room": "Aula por asignar",
+    "color": "#45B7D1"
+  },
+  {
+    "name": "Ingles",
+    "day": "viernes",
+    "startTime": "07:00",
+    "endTime": "09:00",
+    "teacher": "Quien sabe",
+    "room": "Lab Quim",
+    "color": "#45B7D1"
+  },
+  {
+    "name": "Pensamiento Matematico",
+    "day": "martes",
+    "startTime": "09:00",
+    "endTime": "11:00",
+    "teacher": "Fabian Mera Azpeitia",
+    "room": "Aula por asignar",
+    "color": "#96CEB4"
+  },
+  {
+    "name": "Pensamiento Matematico",
+    "day": "miercoles",
+    "startTime": "08:00",
+    "endTime": "10:00",
+    "teacher": "Fabian Mera Azpeitia",
+    "room": "Aula por asignar",
+    "color": "#96CEB4"
+  },
+  {
+    "name": "Pensamiento Matematico",
+    "day": "viernes",
+    "startTime": "10:00",
+    "endTime": "11:00",
+    "teacher": "Fabian Mera Azpeitia",
+    "room": "Info 4",
+    "color": "#96CEB4"
+  },
+  {
+    "name": "Lengua y comunicacion",
+    "day": "lunes",
+    "startTime": "11:00",
+    "endTime": "12:00",
+    "teacher": "Fatima Judith Ramirez Chagoya",
+    "room": "Aula por asignar",
+    "color": "#DDA0DD"
+  },
+  {
+    "name": "Lengua y comunicacion",
+    "day": "martes",
+    "startTime": "07:00",
+    "endTime": "08:00",
+    "teacher": "Fatima Judith Ramirez Chagoya",
+    "room": "Aula por asignar",
+    "color": "#DDA0DD"
+  },
+  {
+    "name": "Cultura digital",
+    "day": "lunes",
+    "startTime": "07:00",
+    "endTime": "09:00",
+    "teacher": "Lizbeth Hernandez Mohedano",
+    "room": "Info 4",
+    "color": "#F7DC6F"
+  },
+  {
+    "name": "Cultura digital",
+    "day": "martes",
+    "startTime": "08:00",
+    "endTime": "09:00",
+    "teacher": "Lizbeth Hernandez Mohedano",
+    "room": "Info 4",
+    "color": "#F7DC6F"
+  },
+  {
+    "name": "Cultura digital",
+    "day": "viernes",
+    "startTime": "09:00",
+    "endTime": "10:00",
+    "teacher": "Lizbeth Hernandez Mohedano",
+    "room": "Info 4",
+    "color": "#F7DC6F"
+  },
+  {
+    "name": "Ciencias Sociales",
+    "day": "lunes",
+    "startTime": "09:00",
+    "endTime": "11:00",
+    "teacher": "José Nabor García Flores",
+    "room": "Aula por asignar",
+    "color": "#85C1E9"
+  },
+  {
+    "name": "Tutoria",
+    "day": "jueves",
+    "startTime": "09:00",
+    "endTime": "10:00",
+    "teacher": "Lizbeth Hernandez Mohedano",
+    "room": "Info 3",
+    "color": "#FF9F43"
+  }
+]

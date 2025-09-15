@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🧪 Pruebas Locales - Horario</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background: #f0f0f0;
+        }
+        .test-section {
+            background: white;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        .test-button {
+            background: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin: 5px;
+            text-decoration: none;
+            display: inline-block;
+        }
+        .test-button:hover {
+            background: #45a049;
+        }
+        .status {
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 5px;
+        }
+        .success {
+            background: #d4edda;
+            color: #155724;
+            border: 1px solid #c3e6cb;
+        }
+        .info {
+            background: #d1ecf1;
+            color: #0c5460;
+            border: 1px solid #bee5eb;
+        }
+        .warning {
+            background: #fff3cd;
+            color: #856404;
+            border: 1px solid #ffeaa7;
+        }
+    </style>
+</head>
+<body>
+    <h1>🧪 Pruebas Locales - Horario de Clases</h1>
+    
+    <div class="test-section">
+        <h2>📱 Pruebas de Responsive Design</h2>
+        <div class="status info">
+            <strong>Servidor Local:</strong> http://127.0.0.1:8000
+        </div>
+        
+        <h3>🔧 Correcciones Implementadas:</h3>
+        <ul>
+            <li><strong>Elementos de 2 horas en móviles:</strong></li>
+            <ul>
+                <li>768px: 140px → 120px ✅ (segundo ajuste)</li>
+                <li>480px: 140px → 100px ✅ (segundo ajuste)</li>
+            </ul>
+            <li><strong>Navegación mejorada:</strong></li>
+            <ul>
+                <li>Función restoreWeekView() implementada ✅</li>
+                <li>Botón "Vista de Semana" funciona sin recargar ✅</li>
+            </ul>
+        </ul>
+        
+        <a href="http://127.0.0.1:8000" class="test-button" target="_blank">
+            🚀 Abrir Horario Principal
+        </a>
+    </div>
+    
+    <div class="test-section">
+        <h2>📋 Checklist de Pruebas</h2>
+        
+        <h3>🖥️ Vista de Escritorio:</h3>
+        <ul>
+            <li>✅ Elementos de clase bien dimensionados</li>
+            <li>✅ Colores y tema tecnológico aplicados</li>
+            <li>✅ Información del grupo visible</li>
+            <li>✅ Footer con recursos de programación</li>
+        </ul>
+        
+        <h3>📱 Vista Móvil (Simular con F12):</h3>
+        <ul>
+            <li>🔍 <strong>480px:</strong> Elementos de 2 horas = 100px altura</li>
+            <li>🔍 <strong>768px:</strong> Elementos de 2 horas = 120px altura</li>
+            <li>🔍 <strong>Sin traslape:</strong> Elementos no se superponen</li>
+            <li>🔍 <strong>Scroll horizontal:</strong> Funciona correctamente</li>
+        </ul>
+        
+        <h3>🔄 Navegación:</h3>
+        <ul>
+            <li>🔍 <strong>"Vista de Semana":</strong> Muestra horario completo</li>
+            <li>🔍 <strong>"Hoy":</strong> Muestra solo día actual</li>
+            <li>🔍 <strong>"Vista de Semana" (después de "Hoy"):</strong> Restaura sin recargar</li>
+        </ul>
+    </div>
+    
+    <div class="test-section">
+        <h2>🎯 Instrucciones de Prueba</h2>
+        
+        <div class="status warning">
+            <strong>⚠️ Importante:</strong> Usa las herramientas de desarrollador (F12) para simular dispositivos móviles
+        </div>
+        
+        <ol>
+            <li><strong>Abrir el horario:</strong> Clic en el botón "Abrir Horario Principal"</li>
+            <li><strong>Probar escritorio:</strong> Verificar que todo se vea bien en pantalla completa</li>
+            <li><strong>Simular móvil:</strong> F12 → Icono móvil → Seleccionar iPhone SE (375px)</li>
+            <li><strong>Verificar elementos:</strong> Buscar clases de 2 horas (ej: "Pensamiento Filosófico")</li>
+            <li><strong>Probar navegación:</strong> Clic en "Hoy" → "Vista de Semana"</li>
+            <li><strong>Probar tablet:</strong> Cambiar a iPad (768px) y repetir pruebas</li>
+        </ol>
+        
+        <div class="status success">
+            <strong>✅ Estado:</strong> Todas las correcciones están implementadas y listas para prueba
+        </div>
+    </div>
+    
+    <div class="test-section">
+        <h2>📊 Datos del Horario</h2>
+        <div class="status info">
+            <strong>📅 Semestre:</strong> Agosto - Enero 2025<br>
+            <strong>👥 Grupo:</strong> 1° E - Técnico en Programación<br>
+            <strong>🌅 Turno:</strong> Matutino<br>
+            <strong>🏫 Aula:</strong> A5
+        </div>
+        
+        <h3>📚 Materias Incluidas:</h3>
+        <ul>
+            <li>Pensamiento Filosófico y Humanidades</li>
+            <li>CNEYT 1: Invitación a la ciencia</li>
+            <li>Inglés</li>
+            <li>Lengua y Comunicación</li>
+            <li>Pensamiento Matemático</li>
+            <li>Cultura Digital</li>
+            <li>Ciencias Sociales</li>
+            <li>Tutoría</li>
+        </ul>
+    </div>
+    
+    <script>
+        // Verificar que el servidor esté funcionando
+        fetch('http://127.0.0.1:8000')
+            .then(response => {
+                if (response.ok) {
+                    document.querySelector('.status.info').innerHTML += '<br><strong>🟢 Servidor:</strong> Funcionando correctamente';
+                } else {
+                    document.querySelector('.status.info').innerHTML += '<br><strong>🔴 Servidor:</strong> Error de conexión';
+                }
+            })
+            .catch(error => {
+                document.querySelector('.status.info').innerHTML += '<br><strong>🔴 Servidor:</strong> No disponible';
+            });
+    </script>
+</body>
+</html>
