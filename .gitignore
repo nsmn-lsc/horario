@@ -1,0 +1,65 @@
+# Archivos temporales y de sistema
+.DS_Store
+Thumbs.db
+*.tmp
+*.temp
+
+# Archivos de Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Entornos virtuales
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Archivos de análisis temporales
+*.py
+!render.yaml
+!README.md
+
+# Archivos de datos temporales
+horario_datos*.json
+datos_horario*.js
+horario_corregido*.json
+datos_horario_corregido*.js
+horario_viernes_corregido.json
+datos_horario_viernes_corregido.js
+corregir_horario*.py
+analisis_simple.py
+analizar_excel.py
+convertir_excel_correcto.py
+optimizar_horario.py
+ejecutar_analisis.py
+
+# Archivos de Excel originales (mantener solo el necesario)
+# assets/horario.xlsx
+
+# Logs
+*.log
