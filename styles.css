@@ -764,7 +764,7 @@ body {
     }
     
     .class-cell[style*="height: 140px"] {
-        height: 110px !important;
+        height: 120px !important;
     }
     
     .class-cell[style*="height: 70px"] {
@@ -861,7 +861,7 @@ body {
     }
     
     .class-cell[style*="height: 140px"] {
-        height: 90px !important;
+        height: 100px !important;
     }
     
     .class-cell[style*="height: 70px"] {
